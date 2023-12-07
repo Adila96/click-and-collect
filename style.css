@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: rgba(128, 128, 128, 0.281);
+    width: auto;
+    height: auto;
+    display: grid;
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    background-color: #ffffff;
+    display: grid;
+    grid-auto-flow: column;
+    border-bottom: 1px solid rgb(14, 60, 83);
+    ;
+    z-index: 10;
+}
+
+.logo-container {
+    margin: 0;
+    padding-left: 70%;
+}
+
+.logo-image {
+    width: 6vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.search-container {
+    align-self: center;
+    justify-self: normal;
+    display: flex;
+}
+
+header input[type=text] {
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid black;
+    border-right: 0px;
+    padding: 1%;
+}
+
+header .search-container button {
+    float: right;
+    background: #ffffff;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding-right: 1%;
+}
+
+.login-button {
+    align-self: center;
+    justify-self: stretch;
+    padding-left: 10px;
+}
+
+.login-button button {
+    background-color: rgba(255, 76, 35, 255);
+    color: rgb(14, 60, 83);
+    font-weight: bold;
+    border-radius: 2px;
+    border: 0;
+    height: 10%;
+    padding: 1.5%;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.header-tags {
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    margin-left: -40%;
+    margin-right: 10%;
+}
+
+.header-tags a {
+    text-decoration: none;
+    color: rgb(14, 60, 83);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    padding: 1% 2% 1% 2%;
+}
+
+.item img {
+    width: 50%;
+}
+
+.item a {
+    text-decoration: none;
+    color: rgb(14, 60, 83);
+}
+
+.banner {
+    padding: 1% 1% 0%;
+}
+
+.content {
+    display: flex;
+    margin: 1%;
+    padding-top: 2%;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    padding-bottom: 1%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.item1 {
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    align-items: center;
+    justify-content: top;
+    line-height: 45px;
+}
+
+.item1 h1 {
+    font-weight: 100;
+    width: 16.5vw;
+}
+
+.button {
+    background-color: rgb(63, 166, 240);
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    padding: 3%;
+    border-radius: 2px;
+}
+
+.item-name {
+    font-weight: bold;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.item-price {
+    color: green;
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.item-brand {
+    opacity: 0.7;
+    font-weight: 100;
+    padding-top: 2%;
+}
+
+.item2 {
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    align-items: center;
+    line-height: 45px;
+}
+
+.item2 h1 {
+    font-weight: 100;
+    width: 16.5vw;
+}
+
+.item3 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    align-items: center;
+    line-height: 45px;
+}
+
+.item3 h1 {
+    padding-left: 7%;
+    padding-right: 7%;
+    font-weight: 100;
+    width: 16.5vw;
+}
+
+.item4 {
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/31d46a8fd93eeedd.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    align-items: center;
+    line-height: 45px;
+}
+
+.item4 h1 {
+    font-weight: 100;
+    width: 16.5vw;
+}
+
+.item5 {
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    align-items: center;
+    line-height: 45px;
+}
+
+.item5 h1 {
+    font-weight: 100;
+    width: 16.5vw;
+}
+
+footer {
+    margin-top: 1%;
+    background-color: rgb(14, 60, 83);
+    padding-top: 1%;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    line-height: 30px;
+    width: auto;
+}
+
+.footer-items a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.footer-titles {
+    color: #ffffff;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.line {
+    padding-left: 3%;
+    border-left: 1px solid grey;
+}
+
+.footer-items p {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.footer-extended {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-evenly;
+    padding: 1%;
+    color: #ffffff;
+    background-color: rgb(14, 60, 83);
+    border-top: 1px solid grey;
+}
+
+.footer-extended a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+}
